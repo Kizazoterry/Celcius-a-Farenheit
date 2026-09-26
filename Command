@@ -1,0 +1,6 @@
+def conversion(C):
+    F=1.8*C+32
+    return F
+n=int(input("ingresa el numero"))
+for i in range(n):
+    print(i," ",conversion(i))
